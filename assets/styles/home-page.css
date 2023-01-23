@@ -1,0 +1,372 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.main-width{
+  width: 1920px;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.hero{
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url(../images/portfolio-background.png);
+  background-color: #009EFF;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+header{
+  padding: 40px 0px 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.logo {
+  height: 55px;
+  width: 55px;
+  background: transparent;
+  border: 2px solid #0D41E1;
+  background-color: #0D41E1;
+  color: white;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.logo a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+nav .hamburger{
+  width: 35px;
+  height: 24px;
+  right: 3%;
+  top: 60px;
+  z-index: 5;
+  position: absolute;
+  cursor: pointer;
+  display: none
+}
+
+nav .hamburger span{
+  display: block;
+  background: #0D41E1;
+  width: 100%;
+  height: 3px;
+  transition: .3s;
+  transition-property: transform,opacity;
+}
+
+nav .hamburger span:nth-child(2){
+  margin: 7px 0px;
+}
+
+nav .nav-list{
+  list-style: none;
+}
+@media(min-width: 2150px){
+  nav .nav-list{
+    background-color: none;
+    border-radius: 10px;
+  }
+}
+
+nav .nav-list li{
+  display: inline-block;
+}
+
+nav .nav-list a{
+  display: inline-block;
+  color: white;
+  margin-left: 55px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media(max-width: 930px){
+  nav .nav-list a{
+    color: white;
+  }
+}
+
+nav .nav-list li:not(:last-child) a:hover{
+  color: #0D41E1;
+  scale: 1.2;
+  transition: all .5s ease-in-out;
+}
+
+nav .nav-list li:not(:last-child) a:active{
+  scale: 1;
+  opacity: .8;
+  transition: all .3s;
+}
+
+nav .nav-list li.contact-btn a{
+  display: inline-block;
+  background: transparent;
+  border: 2px solid #0D41E1;
+  background-color: #0D41E1;
+  color: white;
+  padding: 9px 28px;
+  border-radius: 8px;
+  line-height: 1.3;
+}
+
+nav .nav-list li.contact-btn:hover a{
+  scale: 1.1;
+  transition: all .3s ease-in-out;
+}
+
+nav .nav-list li.contact-btn:active a{
+  scale: 1;
+  opacity: .8;
+}
+
+
+/*HERO TEXT STYLES*/
+
+.hero-container{
+  padding-top: 230px;
+}
+
+.hero-container .hero-text{
+  margin-bottom: 40px;
+}
+
+.hero-container .hero-text h1{
+  font-size: 50px;
+  color: white;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 20px 0xp 20px;
+}
+
+span {
+  color: #0D41E1;
+}
+
+.hero-container .hero-text h3{
+  color: white;
+  font-weight: 400px;
+  font-size: 22px;
+}
+.hero-container .hero-text p{
+  width: 440px;
+  max-width: 100%;
+  color: white;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.social a{
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center;
+  font-size: 30px;
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #0D41E1;
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+
+.social a:hover{
+  transform: scale(1.1);
+  background-color: #0D41E1;
+  transition: all .3s ease-in-out;
+}
+
+.button {
+  padding: 10px 30px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 5 00;
+  border: 2px white solid;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #0D41E1;
+}
+
+.button a{
+  color: white;
+}
+
+.button:hover{
+  scale: 1.1;
+  transition: all .5s ease-in-out;
+}
+
+.hire-button {
+  margin-left: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 5 00;
+  border: 2px #0D41E1 solid;
+  border-radius: 8px;
+  background-color: #0D41E1;
+  cursor: pointer;
+  color: white;
+}
+
+.hire-button a{
+  color: white;
+}
+
+.hire-button:hover{
+  scale: 1.1;
+  transition: all .5s ease-in-out;
+}
+
+
+.copyright{
+  margin-top: 240px;
+  padding-bottom: 40px;
+}
+
+.copyright p{
+  color: white;
+  font-size: 15px;
+}
+
+@media screen and (max-width:930px){
+  nav .hamburger{
+    display: initial;
+  }
+
+  .click{
+    top: 46px;
+  }
+  .click span{
+    position: absolute;
+    margin-top: 12px; 
+  }
+  .click span:first-child{
+    transform: rotate(-40deg);
+  }
+  .click span:nth-child(2){
+    opacity: 0;
+    margin: 0;
+  }
+  .click span:last-child{
+    transform: rotate(40deg);
+    top: 0;
+  }
+  nav .nav-list{
+    position: absolute;
+    top: 90px;
+    right: -65%;
+    bottom: 0px;
+    width: 60%;
+    background-color: #0A85ED;
+    height: 50%;
+    z-index: 2;
+    padding: 6% 9%;
+    transition: .3s right;
+    border-radius: 10px;
+  }
+
+  nav .nav-list li{
+    display: block;;
+  }
+  nav .nav-list li a{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+  
+
+  nav .nav-list li.contact-btn a{
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    padding: 7px 15px;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+
+  }
+
+  nav ,.nav-list.open{
+    right: 0;
+  }
+
+}
+
+/*responsive style for portfolio gallery*/
+/*about me media*/
+
+
+
+@media(max-width: 390px){
+  .hero-container .hero-text h1{
+    font-size: 30px;
+  }
+}
+
+@media(min-width: 391px) and (max-width: 800px){
+  .hero-container .hero-text h1{
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 390px){
+  .hero-container .hero-text h3{
+    font-size: 16px;
+  }
+}
+@media(min-width: 391px) and (max-width: 800px){
+  .hero-container .hero-text h3{
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 390px){
+  .button, .hire-button{
+    font-size: 10px;
+    padding: 5px 15px;
+  }
+}
+
+@media(min-width: 391px) and (max-width: 800px){
+  .button, .hire-button{
+    font-size: 10px;
+    padding: 5px 15px;
+  }
+}

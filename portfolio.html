@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="/assets/styles/home-page.css">
+  <link rel="stylesheet" href="/assets/styles/about-page.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,
+300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/3b6677f877.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  
+  <main>
+    <!--HEADER SECTION-->
+        <div class="sidebar-header">
+          <div class="main-width">
+
+
+      
+            <header>
+        
+              <div class="logo"><a href="/assets/index.html" target="_parent">JF</a></div>
+              
+              <nav>
+                <div class="hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+        
+                <ul class="nav-list">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about-me.html">About Me</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="timeline.html">Timeline</a></li>
+                  <li class="contact-btn"><a href="https://www.linkedin.com/in/jasper-paulo-c-francisco-979181244/" target="_blank">Hire Me</a></li>
+                </ul>
+        
+              </nav>
+            </header>
+        
+            
+          </div>
+      </div>
+ 
+    <!--END OF HEADER SECTION-->
+
+     <!--START OF PORTFOLIO SECTION-->
+     <section class="porfolio-section">
+      <div class="about-titles">GALLERY</div>
+      <div class="gallery">
+
+        <div class="full-img" id="fullImgBox">
+          <img class="imagePreview" src="images/web-design-1.png" id="fullImg">
+          <span onclick="closeFullImg()">X</span>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="gallery-filter">
+              <span class="filter-item active" data-filter="all">all</span>
+              <span class="filter-item" data-filter="web-design">web design</span>
+              <span class="filter-item" data-filter="graphic-design">graphic design</span>
+            </div>
+          </div>
+          <div class="row">
+            <!--GALLERY ITEMS START-->
+            <div class="gallery-item web-design">
+              <div class="gallery-item-inner">
+                <img src="/assets/images/web-design-1-min.png" alt="web-design" onclick="openFullImg(this.src)">
+              </div>
+            </div>
+            <!--GALLERY ITEMS END-->
+
+            <!--GALLERY ITEMS START-->
+            <div class="gallery-item web-design">
+              <div class="gallery-item-inner">
+                <img src="/assets/images/web-design-2-min.png" alt="web-design" onclick="openFullImg(this.src)">
+              </div>
+            </div>
+            <!--GALLERY ITEMS END-->
+            
+
+            <!--GALLERY ITEMS START-->
+            <div class="gallery-item graphic-design">
+              <div class="gallery-item-inner">
+                <img src="/assets/images/graphic-design-1-min.png" alt="graphic-design" onclick="openFullImg(this.src)">
+              </div>
+            </div>
+            <!--GALLERY ITEMS END-->
+
+            <!--GALLERY ITEMS START-->
+            <div class="gallery-item graphic-design">
+              <div class="gallery-item-inner">
+                <img src="/assets/images/graphic-design-2-min.png" alt="graphic-design" onclick="openFullImg(this.src)">
+              </div>
+            </div>
+            <!--GALLERY ITEMS END-->      
+
+             <!--GALLERY ITEMS START-->
+             <div class="gallery-item graphic-design">
+              <div class="gallery-item-inner">
+                <img src="/assets/images/graphic-design-3-min.png" alt="graphic-design" onclick="openFullImg(this.src)">
+              </div>
+            </div>
+            <!--GALLERY ITEMS END-->  
+            
+              <!--GALLERY ITEMS START-->
+              <div class="gallery-item graphic-design">
+                <div class="gallery-item-inner">
+                  <img src="/assets/images/graphic-design-4-min.png" alt="graphic-design" onclick="openFullImg(this.src)">
+                </div>
+              </div>
+              <!--GALLERY ITEMS END-->             
+
+             <!--GALLERY ITEMS START-->
+             <div class="gallery-item graphic-design">
+              <div class="gallery-item-inner">
+                <img src="/assets/images/graphic-design-5-min.png" alt="graphic-design" onclick="openFullImg(this.src)">
+              </div>
+            </div>
+            <!--GALLERY ITEMS END-->  
+            
+             <!--GALLERY ITEMS START-->
+             <div class="gallery-item graphic-design">
+              <div class="gallery-item-inner">
+                <img src="/assets/images/graphic-design-6-min.png" alt="graphic-design" onclick="openFullImg(this.src)">
+              </div>
+            </div>
+            <!--GALLERY ITEMS END-->  
+            
+              <!--GALLERY ITEMS START-->
+              <div class="gallery-item graphic-design">
+                <div class="gallery-item-inner">
+                  <img src="/assets/images/graphic-design-7-min.png" alt="graphic-design" onclick="openFullImg(this.src)">
+                </div>
+              </div>
+              <!--GALLERY ITEMS END-->                     
+            
+             <!--GALLERY ITEMS START-->
+             <div class="gallery-item graphic-design">
+              <div class="gallery-item-inner">
+                <img src="/assets/images/graphic-design-8-min.png" alt="graphic-design" onclick="openFullImg(this.src)">
+              </div>
+            </div>
+            <!--GALLERY ITEMS END-->  
+            
+             <!--GALLERY ITEMS START-->
+             <div class="gallery-item graphic-design">
+              <div class="gallery-item-inner">
+                <img src="/assets/images/graphic-design-9-min.png" alt="graphic-design" onclick="openFullImg(this.src)">
+              </div>
+            </div>
+            <!--GALLERY ITEMS END-->  
+            
+              <!--GALLERY ITEMS START-->
+              <div class="gallery-item graphic-design">
+                <div class="gallery-item-inner">
+                  <img src="/assets/images/graphic-design-10-min.png" alt="graphic-design" onclick="openFullImg(this.src)">
+                </div>
+              </div>
+              <!--GALLERY ITEMS END-->            
+            
+              <!--GALLERY ITEMS START-->
+              <div class="gallery-item graphic-design">
+                <div class="gallery-item-inner">
+                  <img src="/assets/images/graphic-design-11-min.png" alt="graphic-design" onclick="openFullImg(this.src)">
+                </div>
+              </div>
+              <!--GALLERY ITEMS END--> 
+              
+              <!--GALLERY ITEMS START-->
+              <div class="gallery-item graphic-design">
+                <div class="gallery-item-inner">
+                  <img src="/assets/images/graphic-design-12-min.png" alt="graphic-design" onclick="openFullImg(this.src)">
+                </div>
+              </div>
+              <!--GALLERY ITEMS END-->   
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END OF PORTFOLIO SECTION-->   
+
+  </main>
+
+
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="gallery-script.js"></script>
+
+
+</body>
+</html>
