@@ -379,6 +379,21 @@ column-gap: 50px;
   display: none;
 }
 
+.see-more{
+  display: block;
+  background-color: transparent;
+  border: solid white;
+  border-radius: 5px;
+  font-size: 22px;
+  margin: 0 auto;
+  padding: 15px;
+  cursor: pointer;
+}
+.see-more a{
+  text-decoration: none;
+  color: white;
+}
+
 /*LIGHTVIEW FOR THE IMAGE GALLERY*/
 .full-img{
   width: 100%;
